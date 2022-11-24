@@ -1,0 +1,30 @@
+{
+  "name": "aragalabs",
+  "version": "1.0.0",
+  "description": "collage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AldoRmzCode/aragalabs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AldoRmzCode/aragalabs/issues"
+  },
+  "homepage": "https://github.com/AldoRmzCode/aragalabs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0"
+  }
+}
