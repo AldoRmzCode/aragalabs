@@ -1,0 +1,74 @@
+
+
+<div></div> = cierta "class"
+es para darle cierto formato especificado
+se puede poner donde sea
+
+</div class>--------------------
+  <footer>
+    <p>©Copyright 2023 de AldoRmzCode. Todos los derechos revervados.</p>
+    <div class="buttontitle">A R A G A L A B S</div> -------------------------
+  </footer>
+  </div>----------------------
+
+++++++++++++++++++++++++++++++++++++++++++++++++
+
+<html>
+
+
+
+
+<body>
+
+
+
+
+
+
+  <footer>        //hasta abajo
+  </footer>       //hasta abajo
+
+
+</body>
+
+  </html>
+
+
+  padding === "padding" solo es = {(padding-top, padding-right, padding-bottom, padding-left)} 
+  OSEA, PARA TODOS LOS LADOS
+
+
+  https://developer.mozilla.org/es/docs/Web/CSS/padding
+
+
+
+  CAMBIAR TEMA DE COLOR:
+
+
+  <div class="theme-switcher-menu"><button aria-haspopup="menu" type="button" class="button action has-icon theme-switcher-menu small"><span class="button-wrap"><span class="icon icon-theme-os-default "></span>Theme</span></button></div>
+
+
+
+
+  BORRADO DE INDEX.JS:
+
+  /*
+app.get('/', (req, res) => {
+   res.send('bruh'); 
+});
+   
+  app.get('/about', (req, res )=> {
+     res.send('About me');
+    });
+    
+app.get('/contact', (req, res )=> {
+      res.send('Form contact');
+    });
+    
+*/
+
+
+
+
+
+<center><img src="https://cdn.discordapp.com/attachments/1036007614120734793/1045227121213190174/marcoaraga.png"></p></center>

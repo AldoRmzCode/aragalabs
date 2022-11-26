@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+  <link rel="icon" type="image/png" href="/images/yoPlayer.png" />
+  <title>Aragalabs</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="referrer" content="no-referrer">
 <style>
@@ -8,8 +10,11 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  background-color:rgb(24, 0, 24);
+  margin: 10;
+  background-image: url('/images/fondo.png');
+  position: relative;
+  padding-bottom: 3em;
+  min-height: 100vh;
 }
 
 html {
@@ -34,19 +39,20 @@ html {
 }
 
 .about-section {
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   background-color: #75006f;
   color: white;
 }
 
-
-.footer {
-  padding: 10px;
-  background-color: solid #75006f;
+.footer-section {
+  padding: 1em;
   text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: #220020;
   position: absolute;
-  bottom: 0;
+  bottom:0%;
+  width: 100%;
 }
 
 .container {
@@ -77,6 +83,7 @@ html {
   outline: 0;
   display: inline-block;
   padding: 8px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
   background-color: #000;
   text-align: center;
@@ -111,10 +118,17 @@ html {
   -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
   -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
   transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  font-size: 70px;
 }
 .buttontitle:hover {
   text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
 }
+
+
+
+
+
+
 
 
 
@@ -127,19 +141,35 @@ html {
   }
 }
 </style>
-</head>
+</head> 
+<!-- termina styles -->
+ 
+
+
+<header>
+
+  <div class="about-section">
+    <div class="buttontitle">A R A G A L A B S</div> 
+      <link async href="https://fonts.googleapis.com/css?family=Warnes" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
+      <p>By: AldoRmzCode</p>
+    </div>
+
+</header>
+
+
+
+
+
+
+
+<!-- empieza boody-->
 <body> 
 
 
+  
 
 
-
-  <div class="about-section">
-  <div class="buttontitle">A R A G A L A B S</div>
-    <link async href="https://fonts.googleapis.com/css?family=Warnes" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
-    <p>By: AldoRmzCode</p>
-  </div>
-
+  <div class="theme-switcher-menu"></div>
 
 
   <div class="row">
@@ -161,7 +191,7 @@ html {
 
   
 
-  <div class="row">
+  
 <div class="column">
     <div class="card">
       <center>
@@ -253,22 +283,44 @@ html {
 
 
 
+  <div class="column">
+    <div class="card">
+      <center>
+      <img src="https://cdn.discordapp.com/attachments/1036007614120734793/1045195622640255027/purgatorio.gif " alt="Aldo" style="width:40%">
+      <div class="container">
 
-
-  
-
-
-
-  <div class="footer-section">
-
-    <center><img src="https://cdn.discordapp.com/attachments/1036007614120734793/1045227121213190174/marcoaraga.png"></p> </center>
-    <p><a href="" class="button">VOLVER ARRIBA</a></p>
+        <h2 class="name">404</h2>
+        
+        <p class="title">sin nada que mostar</p>
+        <p class="description">vacio</p>
+        <p><a href="" class="button">VISITAR</a></p>
+      </div>
+    </center>
+    </div>
   </div>
 
-
+  
 
 
 </body>
+
+
+
+
+<footer> <!-- pie de página principal  -->
+ 
+  <!-- esta clase para todo dentro del <p class></p>   -->
+  <p class="footer-section">Actualizaciones pronto!</p>
+  
+    <p><a href="" class="button">VOLVER ARRIBA</a></p>
+    
+
+  
+</footer> <!-- pie de página principal termina  -->
+
+
+
+
 </html>
 
 
