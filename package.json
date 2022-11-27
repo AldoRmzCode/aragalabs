@@ -4,8 +4,10 @@
   "description": "collage",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "index.js"
+    "build": "webpack --config webpack.config.js",
+    "test": "node index.js --unhandled-rejections=strict",
+    "dev": "nodemon index",
+    "start": "node index"
   },
   "repository": {
     "type": "git",

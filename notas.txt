@@ -72,3 +72,6 @@ app.get('/contact', (req, res )=> {
 
 
 <center><img src="https://cdn.discordapp.com/attachments/1036007614120734793/1045227121213190174/marcoaraga.png"></p></center>
+
+en INDEX.html:
+background-image: url('/images/fondo.png');
