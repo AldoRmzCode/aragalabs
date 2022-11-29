@@ -15,15 +15,7 @@ se puede poner donde sea
 
 <html>
 
-
-
-
 <body>
-
-
-
-
-
 
   <footer>        //hasta abajo
   </footer>       //hasta abajo
@@ -75,3 +67,30 @@ app.get('/contact', (req, res )=> {
 
 en INDEX.html:
 background-image: url('/images/fondo.png');
+o
+background-color: #220020;
+
+
+
+//principal:
+app.use(express.static('public'));
+
+
+
+footer____________________________________________________________________________________________
+
+<footer > <!-- pie de página principal  -->
+ 
+
+  
+  <p class="footer-section">Actualizaciones pronto!<!-- classe footer "<p></p>" -->
+    <a href="" target="_blank">Anunciate!</a>
+
+    <p><a href="" class="button">VOLVER ARRIBA</a></p>
+
+
+  </p><!-- classe footer  termina"<p></p>" -->
+  
+   
+
+</footer> <!-- pie de página principal termina  -->
