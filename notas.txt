@@ -94,3 +94,7 @@ footer__________________________________________________________________________
    
 
 </footer> <!-- pie de página principal termina  -->
+
+QUITAR SUBRAYADO A HIPERVINCULO:
+
+style="text-decoration:none" --DESPUES DEL HIPERVINCULO
