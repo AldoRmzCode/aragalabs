@@ -32,6 +32,7 @@ aside{
         min-height: 75vh;
     }
 
+
  
   .buttontitle {
   display: inline-block;
@@ -67,13 +68,14 @@ aside{
 }
 
 .about-section {
-  padding: 10px;
+  padding: 5px;
   text-align: center;
   background-color: #050505;
   color: white;
 }
 
 .footer-section {
+  display: flex;  
   padding: 1em;
   text-align: center;
   color: rgb(255, 255, 255);
@@ -123,10 +125,9 @@ aside{
         font-size: 15px;
 }
 .paso:hover {
-  background-color: rgb(131, 131, 131);
+  background-color: rgb(129, 129, 129);
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.445);
 }
-
 
 .numero {
   border-radius: 10px;
@@ -141,12 +142,44 @@ aside{
         font-size: 13px;
 }
 
+.teex{
+  border: 4px;
+  margin: 1%;
+  outline: 0;
+  padding-left: 2%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  width: 50%;
+}
+
+.regresar {
+  border-radius: 10px;
+  outline: 0;
+  padding: 8px;
+  background-color: rgb(29, 29, 29);
+  text-align: center;
+  cursor: pointer;
+  width: 10%;
+        color: rgb(255, 255, 255);
+        margin: 1vw;
+        font-family: "Franklin Gothic Medium", Arial, sans-serif;
+        font-size: 13px;
+      }
+
+      .regresar:hover {
+  background-color: rgb(0, 140, 255);
+  box-shadow: 0 1px 6px 0 rgb(98, 184, 255);
+}
+
+
 
 
 </style> <!-- termina styles -->
 
 
 <header>
+  
     <div class="about-section">
 
       <div class="buttontitle">ANUNCIATE</div>
@@ -159,6 +192,8 @@ aside{
 <!-- derecha-->
 <aside>
     <h4>¡Comenzemos!</h4>
+
+
 
     <div id="paypal-button-container-P-30K94471V1813334AMOGXXEI"></div>
     <script src="https://www.paypal.com/sdk/js?client-id=ATjTMuwldaV68j1pzPtZIecaI9VP79lY4uVBXvn9B3OTUHok7Go5NM3nvr7DZadGugrTX1tSS1EkOWg5&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
@@ -199,6 +234,7 @@ aside{
 
     
       <div class="a">  
+
       <p>¿Quieres que tu sitio web, juego o lo que sea aparezca en Aragalabs?</p>
       <p>Con un costo de $5 USD mensuales tu sitio aparecera aquí</p>
     </div>
@@ -206,17 +242,27 @@ aside{
 
     <div class="paso">
       <div class="numero"><p>1</p></div>
-      <p>Envia un correo a: (aldoraga0209@gmail.com) con:</p>
-      <p>- Nombre de página</p>
-      <p>- URL de página</p>
-      <p>- description corta</p>
-      <p>- icono de página</p>
+      
+ 
+        <div class="teex">
+          <p>Envia un correo a: (aldoraga0209@gmail.com) con:</p>
+          <p>- Nombre de página</p>
+          <p>- URL de página</p>
+          <p>- description corta</p>
+          <p>- icono de página</p>
+        </div>
+      
   </div>
       
 
   <div class="paso">
     <div class="numero"><p>2</p></div>
-    <p>Espera a que tu pagina sea validada para proceder a pagar</p>
+
+    <div class="teex">
+      <p>Espera a que tu pagina sea validada para proceder a pagar</p>
+    </div>
+
+    
 </div>
       
 
@@ -227,15 +273,12 @@ aside{
 
 
 <footer class="footer-section">
-
+  <p><a href="/index.html" style="text-decoration:none" class="regresar">Regresar</a></p>
 <p>contacto: aldoraga0209@gmail.com</p>
+
+
+
 </footer>
-
-
-
-
-
-
 
 
 

@@ -98,3 +98,8 @@ footer__________________________________________________________________________
 QUITAR SUBRAYADO A HIPERVINCULO:
 
 style="text-decoration:none" --DESPUES DEL HIPERVINCULO
+
+
+TEXTO AL LADO DE OTRO O ELEMENTO AL LADO DE OTRO:
+ejemplo en el footer: (anunciate)
+display: flex;
