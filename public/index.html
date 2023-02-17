@@ -1,5 +1,6 @@
+
 <!DOCTYPE html>
-<link rel="icon" type="image/png" href="../images/yoPlayer.png" />
+<link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1036007614120734793/1045193857287061585/gifyo2.gif" />
 <html>
   <link rel="shortcut icon" type="image/jpg" href="images/favicon.png" />
  
@@ -9,10 +10,28 @@
 <style>
 
 
+.mega img {
+  width: 50%;
+  height: 160px;
+  padding: 10px;
+  background-image: url(../aragalabs/images/ARAGAULTRA.png);
+
+  animation: xd 1.7s steps(3) infinite;
+
+}
+
+@keyframes xd{
+  0% {background-image: url(../aragalabs/images/ARAGAULTRA2.png);}
+50% {background-image: url(../aragalabs/images/ARAGAULTRA.png);}
+  100% {background-image: url(../aragalabs/images/ARAGAULTRA2.png);}
+}
+
+
+
 
 body {
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin: 10;
+  margin: 10px;
   /*
   background-color: #1b0019;
   */
@@ -37,7 +56,7 @@ aside{
         float: right;
         text-align: center;
         width: 10%;
-        background-color: rgb(73, 0, 75);
+        background-color:rgb(22, 22, 22);
         min-height: 260vh;
         padding-left: 0%;
     }
@@ -47,10 +66,34 @@ nav{
       float: left;
       text-align: center;
         width: 10%;
-        background-color: rgb(73, 0, 75);
+        background-color: rgb(22, 22, 22);
         min-height: 260vh;
         padding-right: 0%;
     }
+
+
+
+.contenedor{
+
+
+  float: center;
+  /*
+  height: 400px;
+  */
+
+  width: 100%;
+  margin-bottom: 16px;
+
+  padding-left: 10%;
+padding-right: 10%;
+
+
+
+
+
+}
+
+
 
 
 
@@ -59,55 +102,87 @@ nav{
   /*
   height: 400px;
   */
-  
-  width: 26.65%;
+
+  width: 33%;
   margin-bottom: 16px;
   padding: 0 8px;
+  
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.541);
   margin: 10px;
-  background-color:rgb(104, 0, 107);
-  border-radius: 1%;
+  background-color:rgb(62, 0, 65);
+  border: 1px solid rgba(255, 0, 255, 0.274);
+  box-shadow: 0 2px 8px 0 rgba(107, 0, 111, 0.541);
+
+  border-radius: 2%;
+
 }
 .card:hover{
-  background-color: rgb(112, 0, 116);
-  
+  background-color: rgb(78, 0, 83);
+  border: 1px solid rgba(255, 0, 255, 0.274);
+  box-shadow: 0 0px 5px rgb(0, 0, 0), 0 4px 5px rgb(0, 0, 0) , 0 5px 10px rgb(255, 0, 230), 0 5px 20px rgba(255, 0, 230, 0.543), 0 6px 35px rgba(255, 0, 230, 0.385) , 0 7px 60px #ff00dd35;
+
 }
 
 
 
 
 .about-section {
-  padding: 9px;
+  padding: 1px;
+margin-bottom: 20px;
+  background: radial-gradient(closest-side,  #bc00b3, #93008c, #75006f);
+
+color: white;
+  /*
+    background-color: #75006f;
+    background: radial-gradient(closest-side,  #3f3f3f, #2e2e2e, #1b1b1b);
+
+  */
   text-align: center;
-  background-color: #75006f;
-  color: white;
+  padding-bottom: 1px;
+
+ padding: 10px 0;
+  
+ border: 1px solid rgba(255, 0, 255, 0.274);
+
+
+
 }
 
 .footer-section {
-  padding: 1em;
+  
+  background: #390034;
+  color: #c3c3c3;
+  font-size: 12px;
+  padding: 10px 0;
   text-align: center;
-  color: rgb(255, 255, 255);
-  background-color: #75006f;
-  position: absolute;
-  bottom:0%;
-  width: 100%;
+  font-size: 1rem;
+  padding-bottom: 20px;
+  border: 1px solid rgba(255, 0, 255, 0.274);
+
 }
 
 .footer-dos {
-  border: none;
   outline: 0;
   display: flex;
   padding: 10px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
-  background-color: rgb(30, 0, 31);
+  background-color: rgb(27, 0, 21);
+  border: 2px solid rgba(255, 0, 187, 0.479);
+
+
   text-align: center;
   width: 100%;
+
+  
 }
+
+
 .textoxd{
+  display: flex;
+  align-items: center;
   text-align: center;
   float: center;
   font: size 10px;
@@ -115,9 +190,13 @@ nav{
 
 */
   padding-right: 7%;
-  padding-left: 7%;
+  padding-left: 18%;
 
   color: aliceblue;
+
+
+
+
 }
 
 
@@ -134,10 +213,11 @@ nav{
         color: rgb(255, 255, 255);
         margin: 1vw;
         font-family: "Franklin Gothic Medium", Arial, sans-serif;
-        font-size: 30px;
+        font-size: 20px;
       }
 
       .anunciate:hover {
+        
   background-color: rgb(255, 102, 0);
   box-shadow: 0 1px 14px 0 rgba(255, 241, 44, 0.445);
 }
@@ -160,6 +240,9 @@ nav{
 
 .name {
   color: rgb(255, 0, 200);
+  text-shadow: 0 0 5px rgb(0, 0, 0) , 0 0 9px rgb(255, 0, 230), 0 0 15px rgb(255, 0, 230) , 0 0 50px #ff00dd99;
+width: 100%;
+  
 }
 
 .title {
@@ -172,7 +255,6 @@ nav{
 
 
 .button {
-  border: none;
   outline: 0;
   display: inline-block;
   padding: 8px;
@@ -182,16 +264,21 @@ nav{
   text-align: center;
   cursor: pointer;
   width: 100%;
+  border: 1px solid rgba(255, 0, 255, 0.252);
 
 
 border-radius: 3px;
 text-decoration: none; 
-
 }
 
 .button:hover {
   background-color: rgb(204, 0, 187);
-  box-shadow: 0 1px 14px 0 rgba(255, 63, 255, 0.445);
+  /*    background: radial-gradient(closest-side,  #ff00a6, #e80097db, #af0072db);  */
+  box-shadow: 0 0 5px rgb(0, 0, 0) , 0 0 9px rgb(255, 0, 230), 0 0 55px rgb(255, 0, 230) , 0 0 100px #ff00dd99;
+  text-shadow: 0 0 5px rgb(0, 0, 0) , 0 0 9px rgb(255, 157, 245);
+  border: 1px solid rgb(255, 0, 255);
+
+  
 }
 
 
@@ -214,10 +301,10 @@ text-decoration: none;
 
 .button-arriba:hover {
   background-color: rgb(204, 0, 187);
-  box-shadow: 0 1px 14px 0 rgba(255, 63, 255, 0.445);
+  /*    background: radial-gradient(closest-side,  #ff00a6, #e80097db, #af0072db);  */
+  box-shadow: 0 0 5px rgb(0, 0, 0) , 0 0 9px rgb(255, 0, 230), 0 0 55px rgb(255, 0, 230) , 0 0 100px #ff00dd99;
+  text-shadow: 0 0 5px rgb(0, 0, 0) , 0 0 9px rgb(255, 157, 245);
 }
-
-
 
 
 
@@ -250,63 +337,28 @@ text-decoration: none;
 
 
 
-.titulo{
-  
-  padding: 10px;
-  display: inline-block;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 10px;
-  border: none;
-background-image: url(../images/ARAGAULTRA.png) repeat-x 0px 0px;
-
-
-width: 1500px; /*   tamaño ocupado de imagen original  */
-height: 500;
-
-    position: absolute;
-    z-index: 2;
-
-    background-size: 1500px 500;
-    background-position-x: 0px;
-
-}
-
-
 
 
 .araga{
 
+   width: 100%;
+  height: 180px;
 
     position: relative; /*  absolute -->  "exacto". sobre los demas, sin importar que*/
  
     z-index: 2;
 
-    background: url(../images/ARAGAULTRA.png) repeat-x 0px 0px;
+    background: url(https://cdn.discordapp.com/attachments/1070040006946717858/1076288619007975465/ARAGAULTRA.png) repeat-x 0px 0px;
     background-size: 780px 140px;
    
-    animation: animarDemon 1.7s steps(2) infinite;
-
-
 }
-@keyframes animarDemon{
-  0% {
-        width: 780px; /*   tamaño ocupado de imagen original  */
-height: 140px;
-  }
-
-50% {
-    width: 780px; /*   tamaño ocupado de imagen original  */
-height: 140px;
-  }
 
 
-  100% {
-    width: 780px; /*   tamaño ocupado de imagen original  */
-height: 140px;
-  }
-}
+
+
+
+
+
 
 
 
@@ -321,7 +373,7 @@ height: 140px;
 
 @media screen and (max-width: 650px) {
   .column {
-    width: 80%;
+    width: 100%;
     display: block;
   }
 
@@ -331,6 +383,8 @@ height: 140px;
 }
 
 .aside{
+  display: block;
+
         float: right;
         text-align: center;
         width: 10%;
@@ -346,13 +400,46 @@ height: 140px;
 }
 
 .buttontitle{
-
+display: block;
   font-size: 30px;
 }
 
 
 
+
+.contenedor{
+
+
+float: center;
+/*   height: 400px;    */
+width: 100%;
+margin-bottom: 16px;
+padding-left: 10%;
+padding-right: 10%;
 }
+
+
+
+
+.textoxd{
+  text-align: center;
+  float: center;
+  font: size 10px;
+/*
+
+*/
+  padding-right: 1%;
+  padding-left: 1%;
+  color: aliceblue;
+}
+
+
+
+}
+
+
+
+
 
 
 
@@ -368,12 +455,15 @@ height: 140px;
 
   <div class="about-section">
 
-<center><div class="araga"></div></center>
+<div class="mega">
+  <img src="images/ARAGAULTRA.png" >
 
-    
+
+</div>
+
 
       <link async href="https://fonts.googleapis.com/css?family=Warnes" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
-      <p>Proyectos Dev Junior!</p>
+      <p>Dev Junior Proyectos ! ( juegos )</p>
 
     </div>
 
@@ -385,14 +475,10 @@ height: 140px;
 
 
 <!-- derecha-->
-<aside>
-  <h4></h4>
-</aside>
+
 
 <!-- izquierda-->
-<nav>
-  <h4></h4>
-</nav>
+
 
 
 
@@ -402,7 +488,7 @@ height: 140px;
 <body> 
 
 
-
+<div class="contenedor">
 
   <div class="row">
 <div class="column">
@@ -435,7 +521,7 @@ height: 140px;
         <p class="title">No te escondas Jon...</p>
         <p class="description">Escapa de Gorefield, hazlo chocar con objetos y acaba con el.</p>
         
-        <p><a href="" class="button">VISITAR</a></p>
+        <p><a href="https://www.paypal.com/donate?token=0Hr7PT1GSYqUsLx_lDKuKOyhFUnbjClHV7H32Xrns1j2BOBab_YO9sdSOxgksuqVaLhsB1vlqDUERgDX" class="button">VISITAR</a></p>
       </div>
     </center>
     </div>
@@ -446,12 +532,12 @@ height: 140px;
   <div class="column">
     <div class="card">
       <center>
-      <img src="../images/titulo2.png" alt="Aldo" style="width:70%">
+      <img src="../images/titulo2.png" alt="Aldo" style="width:71%">
       <div class="container">
 
         <h2 class="name">DigitalBackroom</h2>
         
-        <p class="title">FUIMOS ABANDONADOS</p>
+        <p class="title">"fuimos abandonados"</p>
         <p class="description">Proyecto utopía no resulto... Virtualizate para entrar al limbo, rescata a las almas atrapadas.</p>
         <p><a href="" class="button">VISITAR</a></p>
       </div>
@@ -463,7 +549,7 @@ height: 140px;
   <div class="column">
     <div class="card">
       <center>
-      <img src="https://cdn.discordapp.com/attachments/1036007614120734793/1051209666325139466/folder.gif" alt="Aldo" style="width:40%">
+      <img src="https://cdn.discordapp.com/attachments/1070040006946717858/1076286404067344416/mvLogo.png" alt="Aldo" style="width:40%">
       <div class="container">
 
         <h2 class="name">minivillains</h2>
@@ -472,7 +558,7 @@ height: 140px;
         <p class="description">. . .</p>
 
         
-        <p><a href="" class="button">No disponible</a></p>
+        <p><a href="https://www.paypal.com/donate?token=0Hr7PT1GSYqUsLx_lDKuKOyhFUnbjClHV7H32Xrns1j2BOBab_YO9sdSOxgksuqVaLhsB1vlqDUERgDX" class="button">Donar</a></p>
       </div>
     </center>
     </div>
@@ -571,7 +657,20 @@ height: 140px;
 
 
 
-<div class="abeja" style="width:40%"></div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
 
 
 
@@ -587,7 +686,7 @@ height: 140px;
     
 
   <p>By: AldoRmzCode</p>
-<center><img src="../images/logo3.png" width="185px" height="185px"></p></center>
+<center><img src="../images/logo3.png" width="135px" height="135px"></p></center>
  <p></p>
  
  <p><a href="/anunciate.html" style="text-decoration:none" class="anunciate">Proximamente!</a></p>
@@ -599,17 +698,11 @@ height: 140px;
       
 
 
-      <div class="textoxd">
-        <p>Terminos y condiciones</p>
-      </div>
-
      
-
+  
       <div class="textoxd">
-        <p></p>
+        <p>contact: aldoraga0209@gmail.com</p>
       </div>
-
-
 
 
       <div class="textoxd">
@@ -624,19 +717,17 @@ height: 140px;
       </div>
       
       
-      <div class="textoxd">
-        <p>Contacto: aldoraga0209@gmail.com</p>
-      </div>
-
-
-
+     
 
 
       
     </div>
 
+
+    
 </footer> <!-- pie de página principal termina  -->
 
+<script src="../index.js"></script>
 
 
 </html>
