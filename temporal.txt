@@ -1,0 +1,29 @@
+<p>Con un costo de $5 USD mensuales tu sitio aparecera aquí</p>
+ 
+ <p><a href="/anunciate.html" style="text-decoration:none" class="anunciate">Anunciate!</a></p>
+    <p><a href="" class="button-arriba">VOLVER ARRIBA</a></p></p>
+    
+
+
+    <div class="footer-dos">
+      
+
+
+      <div class="textoxd">
+        <p>Terminos y condiciones</p>
+      </div>
+
+     
+
+      <div class="textoxd">
+        <p>Ayuda</p>
+      </div>
+
+      <div class="textoxd">
+        <p>Donaciones</p>
+      </div>
+      
+      
+      <div class="textoxd">
+        <p>Contacto: aldoraga0209@gmail.com</p>
+      </div>

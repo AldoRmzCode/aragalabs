@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<link rel="icon" type="image/png" href="/images/yoPlayer.png" />
+<link rel="icon" type="image/png" href="../images/yoPlayer.png" />
 <html>
-  <link rel="shortcut icon" type="image/jpg" href="/images/favicon.png" />
+  <link rel="shortcut icon" type="image/jpg" href="images/favicon.png" />
  
   <title>Aragalabs</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,7 +13,13 @@
 body {
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 10;
+  /*
   background-color: #1b0019;
+  */
+
+  background: linear-gradient(#1b0019, transparent) #000000;
+
+
   position: relative;
   padding-bottom: 3em;
   min-height: 100vh;  
@@ -50,6 +56,10 @@ nav{
 
 .column {
   float: left;
+  /*
+  height: 400px;
+  */
+  
   width: 26.65%;
   margin-bottom: 16px;
   padding: 0 8px;
@@ -63,13 +73,14 @@ nav{
 }
 .card:hover{
   background-color: rgb(112, 0, 116);
+  
 }
 
 
 
 
 .about-section {
-  padding: 10px;
+  padding: 9px;
   text-align: center;
   background-color: #75006f;
   color: white;
@@ -97,8 +108,15 @@ nav{
   width: 100%;
 }
 .textoxd{
+  text-align: center;
+  float: center;
+  font: size 10px;
+/*
+
+*/
   padding-right: 7%;
   padding-left: 7%;
+
   color: aliceblue;
 }
 
@@ -116,7 +134,7 @@ nav{
         color: rgb(255, 255, 255);
         margin: 1vw;
         font-family: "Franklin Gothic Medium", Arial, sans-serif;
-        font-size: 40px;
+        font-size: 30px;
       }
 
       .anunciate:hover {
@@ -232,15 +250,114 @@ text-decoration: none;
 
 
 
+.titulo{
+  
+  padding: 10px;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+background-image: url(../images/ARAGAULTRA.png) repeat-x 0px 0px;
+
+
+width: 1500px; /*   tamaño ocupado de imagen original  */
+height: 500;
+
+    position: absolute;
+    z-index: 2;
+
+    background-size: 1500px 500;
+    background-position-x: 0px;
+
+}
+
+
+
+
+.araga{
+
+
+    position: relative; /*  absolute -->  "exacto". sobre los demas, sin importar que*/
+ 
+    z-index: 2;
+
+    background: url(../images/ARAGAULTRA.png) repeat-x 0px 0px;
+    background-size: 780px 140px;
+   
+    animation: animarDemon 1.7s steps(2) infinite;
+
+
+}
+@keyframes animarDemon{
+  0% {
+        width: 780px; /*   tamaño ocupado de imagen original  */
+height: 140px;
+  }
+
+50% {
+    width: 780px; /*   tamaño ocupado de imagen original  */
+height: 140px;
+  }
+
+
+  100% {
+    width: 780px; /*   tamaño ocupado de imagen original  */
+height: 140px;
+  }
+}
+
+
+
+
+
+
+/*FORMATO MOBIL:*/
+
+
 
 
 
 @media screen and (max-width: 650px) {
   .column {
-    width: 100%;
+    width: 80%;
     display: block;
   }
+
+.footer-section{
+  width: 100%;
+    display: block;
 }
+
+.aside{
+        float: right;
+        text-align: center;
+        width: 10%;
+        background-color: rgb(73, 0, 75);
+        min-height: 260vh;
+        padding-left: 0%;
+    }
+
+.textoxd{
+  font-size: 20%;
+  width: 10%;
+
+}
+
+.buttontitle{
+
+  font-size: 30px;
+}
+
+
+
+}
+
+
+
+
+
 </style>
 </head> 
 <!-- termina styles -->
@@ -251,12 +368,17 @@ text-decoration: none;
 
   <div class="about-section">
 
+<center><div class="araga"></div></center>
+
     
-    <div class="buttontitle">A R A G A L A B S</div> 
+
       <link async href="https://fonts.googleapis.com/css?family=Warnes" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
-      <p>Da a conocer tu sitio web al mundo!</p>
+      <p>Proyectos Dev Junior!</p>
 
     </div>
+
+
+
 
 </header>
 
@@ -291,8 +413,8 @@ text-decoration: none;
 
         <h2 class="name">wargardenz</h2>
         
-        <p class="title">JUEGO MUERTO</p>
-        <p class="description">Descanse en paz</p>
+        <p class="title">juego online tipo "io" en miniatura</p>
+        <p class="description">Guerra en miniatura con personajes increibles, coloridos, poderosos.</p>
         <p><a href="https://www.wargardenz.com/" class="button">VISITAR</a></p>
       </div>
     </center>
@@ -305,15 +427,52 @@ text-decoration: none;
   <div class="column">
     <div class="card">
       <center>
+      <img src="https://cdn.discordapp.com/attachments/1070040006946717858/1070145922689933413/logo1.png" alt="Aldo" style="width:40%">
+      <div class="container">
+
+        <h2 class="name">Jon's scape</h2>
+        
+        <p class="title">No te escondas Jon...</p>
+        <p class="description">Escapa de Gorefield, hazlo chocar con objetos y acaba con el.</p>
+        
+        <p><a href="" class="button">VISITAR</a></p>
+      </div>
+    </center>
+    </div>
+  </div>
+
+
+
+  <div class="column">
+    <div class="card">
+      <center>
+      <img src="../images/titulo2.png" alt="Aldo" style="width:70%">
+      <div class="container">
+
+        <h2 class="name">DigitalBackroom</h2>
+        
+        <p class="title">FUIMOS ABANDONADOS</p>
+        <p class="description">Proyecto utopía no resulto... Virtualizate para entrar al limbo, rescata a las almas atrapadas.</p>
+        <p><a href="" class="button">VISITAR</a></p>
+      </div>
+    </center>
+    </div>
+  </div>
+
+
+  <div class="column">
+    <div class="card">
+      <center>
       <img src="https://cdn.discordapp.com/attachments/1036007614120734793/1051209666325139466/folder.gif" alt="Aldo" style="width:40%">
       <div class="container">
 
-        <h2 class="name">404</h2>
+        <h2 class="name">minivillains</h2>
         
-        <p class="title">sin nada que mostar</p>
+        <p class="title">sin financiamiento</p>
         <p class="description">. . .</p>
+
         
-        <p><a href="" class="button">VISITAR</a></p>
+        <p><a href="" class="button">No disponible</a></p>
       </div>
     </center>
     </div>
@@ -321,40 +480,7 @@ text-decoration: none;
 
 
 
-  <div class="column">
-    <div class="card">
-      <center>
-      <img src="https://cdn.discordapp.com/attachments/1036007614120734793/1051209666325139466/folder.gif" alt="Aldo" style="width:40%">
-      <div class="container">
 
-        <h2 class="name">404</h2>
-        
-        <p class="title">sin nada que mostar</p>
-        <p class="description">. . .</p>
-        
-        <p><a href="" class="button">VISITAR</a></p>
-      </div>
-    </center>
-    </div>
-  </div>
-
-
-
-  <div class="column">
-    <div class="card">
-      <center>
-      <img src="https://cdn.discordapp.com/attachments/1036007614120734793/1051209666325139466/folder.gif" alt="Aldo" style="width:40%">
-      <div class="container">
-
-        <h2 class="name">404</h2>
-        
-        <p class="title">sin nada que mostar</p>
-        <p class="description">. . .</p>
-        <p><a href="" class="button">VISITAR</a></p>
-      </div>
-    </center>
-    </div>
-  </div>
 
 
 
@@ -368,7 +494,7 @@ text-decoration: none;
         
         <p class="title">sin nada que mostar</p>
         <p class="description">...</p>
-        <p><a href="" class="button">VISITAR</a></p>
+        <p><a href="" class="button">No disponible</a></p>
       </div>
     </center>
     </div>
@@ -387,7 +513,7 @@ text-decoration: none;
         
         <p class="title">sin nada que mostar</p>
         <p class="description">...</p>
-        <p><a href="" class="button">VISITAR</a></p>
+        <p><a href="" class="button">No disponible</a></p>
       </div>
     </center>
     </div>
@@ -403,7 +529,7 @@ text-decoration: none;
         
         <p class="title">sin nada que mostar</p>
         <p class="description">...</p>
-        <p><a href="" class="button">VISITAR</a></p>
+        <p><a href="" class="button">No disponible</a></p>
       </div>
     </center>
     </div>
@@ -419,7 +545,7 @@ text-decoration: none;
         
         <p class="title">sin nada que mostar</p>
         <p class="description">...</p>
-        <p><a href="" class="button">VISITAR</a></p>
+        <p><a href="" class="button">No disponible</a></p>
       </div>
     </center>
     </div>
@@ -436,7 +562,7 @@ text-decoration: none;
         
         <p class="title">sin nada que mostar</p>
         <p class="description">...</p>
-        <p><a href="" class="button">VISITAR</a></p>
+        <p><a href="" class="button">No disponible</a></p>
       </div>
     </center>
     </div>
@@ -444,7 +570,9 @@ text-decoration: none;
   
 
 
-  
+
+<div class="abeja" style="width:40%"></div>
+
 
 
 </body>
@@ -459,10 +587,10 @@ text-decoration: none;
     
 
   <p>By: AldoRmzCode</p>
-<center><img src="https://cdn.discordapp.com/attachments/1036007614120734793/1051206650238873720/LOGO1.png" width="185px" height="185px"></p></center>
- <p>Con un costo de $5 USD mensuales tu sitio aparecera aquí</p>
+<center><img src="../images/logo3.png" width="185px" height="185px"></p></center>
+ <p></p>
  
- <p><a href="/anunciate.html" style="text-decoration:none" class="anunciate">Anunciate!</a></p>
+ <p><a href="/anunciate.html" style="text-decoration:none" class="anunciate">Proximamente!</a></p>
     <p><a href="" class="button-arriba">VOLVER ARRIBA</a></p></p>
     
 
@@ -478,11 +606,21 @@ text-decoration: none;
      
 
       <div class="textoxd">
-        <p>Ayuda</p>
+        <p></p>
       </div>
 
+
+
+
       <div class="textoxd">
-        <p>Donaciones</p>
+        
+    <form action="https://www.paypal.com/donate" method="post" target="_top">
+      <input type="hidden" name="hosted_button_id" value="9A8XJF5KE9KSU" />
+      <input type="image" src="https://www.paypalobjects.com/es_XC/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donar con el botón PayPal" />
+      <img alt="" border="0" src="https://www.paypal.com/es_MX/i/scr/pixel.gif" width="1" height="1" />
+      </form>
+      
+  
       </div>
       
       

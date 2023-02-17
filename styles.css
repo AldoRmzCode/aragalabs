@@ -53,3 +53,17 @@ body {
 .img{
 size:100px;
 }
+
+
+
+
+#araga_logo{
+  direction: ltr;
+  display: block;
+  float: left;
+  height: 40px;
+  text-indent: -9999px;
+  width: 133px;
+}
+
+
